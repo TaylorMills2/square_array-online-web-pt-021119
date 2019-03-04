@@ -1,4 +1,5 @@
 def square_array(array)
- square_array.each do |array|
- puts "Square Array #{array} is #{array.numbers} letters long."
+  new_array = []
+  array.each{|a| new_array.push(a*a)}
+  return new_array
 end
